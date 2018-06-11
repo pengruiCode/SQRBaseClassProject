@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
 
   s.name         = "SQRBaseClassProject"
-  s.version      = "0.0.1"
-  s.summary  	 = '地图组件'
+  s.version      = "0.0.2"
+  s.summary  	 = '基类'
   s.homepage     = "https://github.com/pengruiCode/SQRBaseClassProject.git"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = {'pengrui' => 'pengruiCode@163.com'}
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.resource     = 'SQRBaseClassProject/Resource/*.png'
   s.requires_arc = true
   s.description  = <<-DESC
-			显示地图，并定位出附近位置列表
+			部分类继承，可提供快捷方法
                    DESC
 
   s.subspec "MJRefresh" do |ss|
