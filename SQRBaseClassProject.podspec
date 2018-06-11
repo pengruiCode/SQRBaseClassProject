@@ -23,4 +23,8 @@ Pod::Spec.new do |s|
      ss.dependency "DZNEmptyDataSet"
   end
 
+  s.subspec "SQRBaseDefineWithFunction" do |ss|
+     ss.dependency "SQRBaseDefineWithFunction"
+  end
+
  end
