@@ -14,8 +14,13 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
 			显示地图，并定位出附近位置列表
                    DESC
+
   s.subspec "MJRefresh" do |ss|
      ss.dependency "MJRefresh"
+  end
+
+  s.subspec "DZNEmptyDataSet" do |ss|
+     ss.dependency "DZNEmptyDataSet"
   end
 
  end
