@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9A2D668020CE0D7600C986E3 /* UIView+Tap.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2D667E20CE0D7600C986E3 /* UIView+Tap.m */; };
+		9A2D66DC20CE15CB00C986E3 /* UIView+Tap.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2D66DB20CE15CB00C986E3 /* UIView+Tap.m */; };
 		9AD8A37320CA784400156E1B /* SQRBaseClassProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD8A37220CA784400156E1B /* SQRBaseClassProjectTests.m */; };
 		9AD8A37E20CA784400156E1B /* SQRBaseClassProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD8A37D20CA784400156E1B /* SQRBaseClassProjectUITests.m */; };
 		9AD8A39720CA794300156E1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD8A38D20CA794300156E1B /* AppDelegate.m */; };
@@ -48,8 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9A2D667E20CE0D7600C986E3 /* UIView+Tap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Tap.m"; sourceTree = "<group>"; };
-		9A2D667F20CE0D7600C986E3 /* UIView+Tap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Tap.h"; sourceTree = "<group>"; };
+		9A2D66DA20CE15CB00C986E3 /* UIView+Tap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Tap.h"; sourceTree = "<group>"; };
+		9A2D66DB20CE15CB00C986E3 /* UIView+Tap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Tap.m"; sourceTree = "<group>"; };
 		9AD8A35620CA784200156E1B /* SQRBaseClassProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQRBaseClassProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AD8A36E20CA784400156E1B /* SQRBaseClassProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQRBaseClassProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AD8A37220CA784400156E1B /* SQRBaseClassProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQRBaseClassProjectTests.m; sourceTree = "<group>"; };
@@ -163,6 +163,8 @@
 				9AD8A39420CA794300156E1B /* main.m */,
 				9AD8A39520CA794300156E1B /* ViewController.h */,
 				9AD8A39620CA794300156E1B /* ViewController.m */,
+				9A2D66DA20CE15CB00C986E3 /* UIView+Tap.h */,
+				9A2D66DB20CE15CB00C986E3 /* UIView+Tap.m */,
 				9AD8A39E20CA794B00156E1B /* SQRBaseClassProject */,
 			);
 			path = SQRBaseClassProjectExample;
@@ -171,8 +173,6 @@
 		9AD8A39E20CA794B00156E1B /* SQRBaseClassProject */ = {
 			isa = PBXGroup;
 			children = (
-				9A2D667F20CE0D7600C986E3 /* UIView+Tap.h */,
-				9A2D667E20CE0D7600C986E3 /* UIView+Tap.m */,
 				9AD8A39F20CA794B00156E1B /* LKBaseTableHeaderFooterView.h */,
 				9AD8A3A020CA794B00156E1B /* LKBaseTableHeaderFooterView.m */,
 				9AD8A3A120CA794B00156E1B /* LKBaseTableView.h */,
@@ -338,9 +338,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A2D668020CE0D7600C986E3 /* UIView+Tap.m in Sources */,
 				9AD8A39D20CA794300156E1B /* ViewController.m in Sources */,
 				9AD8A3B620CA794C00156E1B /* LKBaseTableViewCell.m in Sources */,
+				9A2D66DC20CE15CB00C986E3 /* UIView+Tap.m in Sources */,
 				9AD8A3BB20CA794C00156E1B /* LKScrollViewRefresh.m in Sources */,
 				9AD8A3B820CA794C00156E1B /* LKBaseViewController.m in Sources */,
 				9AD8A3B920CA794C00156E1B /* LKCommonNoNetworkingView.m in Sources */,
