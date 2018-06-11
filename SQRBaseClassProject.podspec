@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SQRBaseClassProject"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary  	 = '基类'
   s.homepage     = "https://github.com/pengruiCode/SQRBaseClassProject.git"
   s.license      = { :type => "MIT", :file => "LICENSE" }

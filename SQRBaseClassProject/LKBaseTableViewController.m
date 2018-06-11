@@ -55,7 +55,7 @@
         _tableView = tab;
         tab.dataSource = self;
         tab.delegate = self;
-        tab.backgroundColor = DEF_COLOR_BankGround;
+        tab.backgroundColor = [UIColor whiteColor];
         tab.separatorColor = kSeperatorColor;
         WeakSelf(weakSelf);
         [tab emptyTableViewTapHandler:^(UIScrollView *scroollView, UIView *tapView) {
