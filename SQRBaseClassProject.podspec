@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => 'https://github.com/pengruiCode/SQRBaseClassProject.git', :tag => s.version}
   s.platform 	 = :ios, "8.0"
   s.source_files = "SQRBaseClassProject/**/*.{h,m}"
-  s.resource     = 'SQRBaseClassProject/Resource/*.png'
+  s.resource            = 'SQRBaseClassProject/RefueshImage.bundle'
   s.requires_arc = true
   s.description  = <<-DESC
 			部分类继承，可提供快捷方法
