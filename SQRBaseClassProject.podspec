@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SQRBaseClassProject"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary  	 = '基类'
   s.homepage     = "https://github.com/pengruiCode/SQRBaseClassProject.git"
   s.license      = { :type => "MIT", :file => "LICENSE" }
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.platform 	 = :ios, "8.0"
   s.source_files = "SQRBaseClassProject/**/*.{h,m}"
   
-  s.resource     = 'SQRBaseClassProject/Resource/*.png'
+  s.resource            = 'SQRBaseClassProject/RefueshImage.bundle'
   s.requires_arc = true
   s.description  = <<-DESC
 			部分类继承，可提供快捷方法
