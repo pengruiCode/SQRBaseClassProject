@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SQRBaseClassProject"
-  s.version      = "0.0.9"
+  s.version      = "0.1.0"
   s.summary  	 = '基类'
   s.homepage     = "https://github.com/pengruiCode/SQRBaseClassProject.git"
   s.license      = { :type => "MIT", :file => "LICENSE" }
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
 			部分类继承，可提供快捷方法
                    DESC
-  s.dependency 'SQRBaseDefineWithFunction'
+
 
   s.subspec "MJRefresh" do |ss|
      ss.dependency "MJRefresh"
@@ -23,6 +23,10 @@ Pod::Spec.new do |s|
 
   s.subspec "DZNEmptyDataSet" do |ss|
      ss.dependency "DZNEmptyDataSet"
+  end
+
+  s.subspec "SQRBaseDefineWithFunction" do |ss|
+     ss.dependency "SQRBaseDefineWithFunction"
   end
 
  end
