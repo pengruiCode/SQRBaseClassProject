@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9A2D68BB20D10CB000C986E3 /* RefueshImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9A2D68BA20D10CB000C986E3 /* RefueshImage.bundle */; };
+		9A2D68BF20D11B0900C986E3 /* refresh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A2D68BD20D11B0800C986E3 /* refresh@2x.png */; };
+		9A2D68C020D11B0900C986E3 /* refresh@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A2D68BE20D11B0800C986E3 /* refresh@3x.png */; };
 		9AD8A37320CA784400156E1B /* SQRBaseClassProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD8A37220CA784400156E1B /* SQRBaseClassProjectTests.m */; };
 		9AD8A37E20CA784400156E1B /* SQRBaseClassProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD8A37D20CA784400156E1B /* SQRBaseClassProjectUITests.m */; };
 		9AD8A39720CA794300156E1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD8A38D20CA794300156E1B /* AppDelegate.m */; };
@@ -46,7 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9A2D68BA20D10CB000C986E3 /* RefueshImage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = RefueshImage.bundle; sourceTree = "<group>"; };
+		9A2D68BD20D11B0800C986E3 /* refresh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refresh@2x.png"; sourceTree = "<group>"; };
+		9A2D68BE20D11B0800C986E3 /* refresh@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refresh@3x.png"; sourceTree = "<group>"; };
 		9AD8A35620CA784200156E1B /* SQRBaseClassProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQRBaseClassProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AD8A36E20CA784400156E1B /* SQRBaseClassProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQRBaseClassProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AD8A37220CA784400156E1B /* SQRBaseClassProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQRBaseClassProjectTests.m; sourceTree = "<group>"; };
@@ -108,6 +110,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A2D68BC20D11B0800C986E3 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				9A2D68BD20D11B0800C986E3 /* refresh@2x.png */,
+				9A2D68BE20D11B0800C986E3 /* refresh@3x.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		9AD8A34D20CA784200156E1B = {
 			isa = PBXGroup;
 			children = (
@@ -184,7 +195,7 @@
 				9AD8A3AE20CA794B00156E1B /* LKScrollViewRefresh.m */,
 				9AD8A3AF20CA794B00156E1B /* LKWebView.h */,
 				9AD8A3B020CA794B00156E1B /* LKWebView.m */,
-				9A2D68BA20D10CB000C986E3 /* RefueshImage.bundle */,
+				9A2D68BC20D11B0800C986E3 /* Resource */,
 			);
 			path = SQRBaseClassProject;
 			sourceTree = SOURCE_ROOT;
@@ -294,9 +305,10 @@
 			files = (
 				9AD8A39B20CA794300156E1B /* Info.plist in Resources */,
 				9AD8A39A20CA794300156E1B /* Main.storyboard in Resources */,
-				9A2D68BB20D10CB000C986E3 /* RefueshImage.bundle in Resources */,
 				9AD8A39820CA794300156E1B /* Assets.xcassets in Resources */,
+				9A2D68BF20D11B0900C986E3 /* refresh@2x.png in Resources */,
 				9AD8A39920CA794300156E1B /* LaunchScreen.storyboard in Resources */,
+				9A2D68C020D11B0900C986E3 /* refresh@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
