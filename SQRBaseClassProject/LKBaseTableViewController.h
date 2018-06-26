@@ -42,6 +42,10 @@ typedef NS_ENUM(NSInteger, RefreshAnimation) {
     NSMutableArray *_dataArray;
 }
 
+/**
+ *  数据源数量
+ */
+@property (nonatomic, strong) NSMutableArray *dataArray;
 
 /**
  *  刷新动画动图数组
