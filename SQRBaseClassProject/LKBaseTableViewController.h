@@ -38,7 +38,9 @@ typedef NS_ENUM(NSInteger, RefreshAnimation) {
 
 
 
-@interface LKBaseTableViewController : LKBaseViewController <UITableViewDelegate, UITableViewDataSource>
+@interface LKBaseTableViewController : LKBaseViewController <UITableViewDelegate, UITableViewDataSource>{
+    NSMutableArray *_dataArray;
+}
 
 
 /**
@@ -110,11 +112,6 @@ typedef NS_ENUM(NSInteger, RefreshAnimation) {
  *  分割线颜色
  */
 @property (nonatomic, assign) UIColor *sepLineColor;
-
-/**
- *  数据源数量
- */
-@property (nonatomic, strong) NSMutableArray *dataArray;
 
 /**
  *  加载刷新类型(枚举类型)
