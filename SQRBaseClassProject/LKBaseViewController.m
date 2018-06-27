@@ -79,13 +79,11 @@ const char LKBaseTableVcNavLeftItemHandleKey;
     
     [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
     
-//    self.automaticallyAdjustsScrollViewInsets = NO;
-    
     self.navigationController.navigationBar.translucent = NO;
     
     self.navigationController.interactivePopGestureRecognizer.delaysTouchesBegan = NO;
 
-    self.navigationController.navigationBar.barTintColor = [UIColor lightGrayColor];
+    self.navigationController.navigationBar.barTintColor = [SQRDataSave takeOutDataFromDataEnum:SaveDataEnum_MasterColor customKey:nil] ? [SQRDataSave takeOutDataFromDataEnum:SaveDataEnum_MasterColor customKey:nil] : [UIColor lightGrayColor];
     
     self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
     
