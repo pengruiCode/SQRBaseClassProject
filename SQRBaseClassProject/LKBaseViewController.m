@@ -10,6 +10,7 @@
 #import "LKCommonNoNetworkingView.h"
 #import <objc/runtime.h>
 #import <SQRBaseDefineWithFunction/SQRDataSave.h>
+#import <SQRBaseDefineWithFunction/SQRBaseDefine.h>
 
 /** 网络请求成功*/
 NSString *const kRequestSuccessNotification = @"kRequestSuccessNotification";
@@ -84,7 +85,8 @@ const char LKBaseTableVcNavLeftItemHandleKey;
     
     self.navigationController.interactivePopGestureRecognizer.delaysTouchesBegan = NO;
 
-    self.navigationController.navigationBar.barTintColor = [SQRDataSave takeOutDataFromDataEnum:SaveDataEnum_MasterColor customKey:nil] ? [SQRDataSave takeOutDataFromDataEnum:SaveDataEnum_MasterColor customKey:nil] : [UIColor lightGrayColor];
+    NSNumber *num = [SQRDataSave takeOutDataFromDataEnum:SaveDataEnum_MasterColor customKey:nil];
+    self.navigationController.navigationBar.barTintColor = num ? DEF_HEXColor(num.intValue) : [UIColor lightGrayColor];
     
     self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
     
